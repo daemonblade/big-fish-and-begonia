@@ -69,6 +69,10 @@ bfab_piano_upper = \relative c'''
       bes,2 r2
     }
   >>
+  f''8 ees f bes f ees f c'
+  f, ees f bes <ees, c'>4 <c aes'>
+  \acciaccatura {bes8 c} f ees f bes f ees f c'
+  aes1
 }
 
 bfab_piano_lower = \relative c''
@@ -133,6 +137,11 @@ bfab_piano_lower = \relative c''
       bes,1
     }
   >>
+  <ges' des'>2 <aes ees>
+  <bes f'>1
+  <ges des' ees>2 <aes ees' f>
+  \clef treble
+  bes'8 f des' f, c'2
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
