@@ -38,42 +38,53 @@ bfab_piano_upper = \relative c'''
   f,\< ees f des' <ees, c'>4 aes\!)
   <ges, bes ees>8\mp( f' bes,4) <aes c ees>8( f' bes, aes
   bes1)
-  bes,8( des des ees ees f f bes
-  aes4. f8 ees2)
-  bes8( des des ees ees f f4
-  bes, aes2.)
-  bes8( des des ees ees f f bes
-  aes4. f8 ees2)
-  <ges bes ees>\arpeggio <aes c ees>\arpeggio
-  r2. bes,8( des
-  ees4. des8 bes4) bes8( des
-  ees4. des8 f4) f8( aes
-  bes4 bes8 aes f ees des4
-  ees8. f16~ f2) bes,8( des
-  ees4. des16 bes~ bes4) bes8( des
-  ees4 des f2)
-  ees8( f bes,4 ees8 f bes, aes
-  bes4) r2 f'8( aes
-  des4. c8 f,4 f8 ees
-  des4 des8 ees f4) f8( ees
-  des4 bes'8 des c bes aes ees
-  f2.) f8( aes
-  des4. c8 f,4 f8 ees
-  des4 des8 ees f2)
-  ees8 f bes,4 ees8 f bes, aes
-  <<
+  \repeat volta 2
+  {
+    bes,8( des des ees ees f f bes
+    aes4. f8 ees2)
+    bes8( des des ees ees f f4
+    bes, aes2.)
+    bes8( des des ees ees f f bes
+    aes4. f8 ees2)
+    <ges bes ees>\arpeggio <aes c ees>\arpeggio
+    r2. bes,8( des
+    ees4. des8 bes4) bes8( des
+    ees4. des8 f4) f8( aes
+    bes4 bes8 aes f ees des4
+    ees8. f16~ f2) bes,8( des
+    ees4. des16 bes~ bes4) bes8( des
+    ees4 des f2)
+    ees8( f bes,4 ees8 f bes, aes
+    bes4) r2 f'8( aes
+    des4. c8 f,4 f8 ees
+    des4 des8 ees f4) f8( ees
+    |
+  }
+  \alternative
+  {
     {
-      r4 des'8( f, c'2)
-    } \\
-    {
-      bes,2 r2
+      des4 bes'8 des c bes aes ees
+      f2.) f8( aes
+      des4. c8 f,4 f8 ees
+      des4 des8 ees f2)
+      ees8 f bes,4 ees8 f bes, aes
+      <<
+        {
+          r4 des'8( f, c'2)
+        } \\
+        {
+          bes,2 r2
+        }
+      >>
+      f''8( ees f bes f ees f c'
+      f, ees f bes <ees, c'>4 <c aes'>)
+      \acciaccatura {bes8 c} f( ees f bes f ees f c'
+      aes1)
     }
-  >>
-  f''8( ees f bes f ees f c'
-  f, ees f bes <ees, c'>4 <c aes'>)
-  \acciaccatura {bes8 c} f( ees f bes f ees f c'
-  aes1)
-  des,,4 bes'8 des c bes aes bes
+    {
+      des,,4 bes'8 des c bes aes bes
+    }
+  }
   f2. f8 aes
   des4. c8 f,4 f8 ees
   des4 des8 ees8 f2
@@ -153,52 +164,63 @@ bfab_piano_lower = \relative c''
   <ges, des'> <aes ees'>
   \clef bass
   bes,8 f' des' f, c'2
-  ges,8( des' aes' bes f4 des)
-  f,8 c'( f aes c4 aes)
-  ges,8 des' aes' des, bes'4 ges
-  f,8 c' f c bes4 aes
-  ges8( des' aes' bes des4 ges,)
-  f,8 c'( f aes c4 aes)
-  <<
+  \repeat volta 2
+  {
+    ges,8( des' aes' bes f4 des)
+    f,8 c'( f aes c4 aes)
+    ges,8 des' aes' des, bes'4 ges
+    f,8 c' f c bes4 aes
+    ges8( des' aes' bes des4 ges,)
+    f,8 c'( f aes c4 aes)
+    <<
+      {
+        ees'8 f bes,4 ees8 f bes, aes
+        bes4
+      } \\
+      {
+        ges2 aes4 r
+        bes,8 f' des' c bes4 ges
+      }
+    >>
+    ges,8( des' bes'4 ges f)
+    ges,8 des' <ges bes>4 aes,8 f' c'4
+    ges,8 des' <bes' des>4 aes,8 ees' <ges bes>4
+    des <aes' c> <bes des> ges
+    ges,8( des' ges4 f ees)
+    aes,8 f' aes4 <ees g des'>2
+    <bes f' aes>\arpeggio <bes f' aes>\arpeggio
+    bes,8( f' des' c ees des bes aes)
+    ges des' <ges bes> des aes ees' <aes c> ees
+    bes f' <aes bes> f des aes' <bes des> aes
+    |
+  }
+  \alternative
+  {
     {
-      ees'8 f bes,4 ees8 f bes, aes
-      bes4
-    } \\
-    {
-      ges2 aes4 r
-      bes,8 f' des' c bes4 ges
+      ges, des' <ges bes> des aes ees' <aes c> ees
+      bes f' <bes des> f bes, f' <aes c>4
+      ges,8 des' <ges bes> des aes ees' <aes c> ees
+      bes f' <aes bes> f bes, f' <aes c> f
+      <des bes'>2 <bes f' aes>\arpeggio
+      <<
+        {
+          r8 f'~ f2.
+        } \\
+        {
+          bes,1
+        }
+      >>
+      <ges' des'>2 <aes ees>
+      <bes f'>1
+      <ges des' ees>2 <aes ees' f>
+      \clef treble
+      bes'8 f des' f, c'2
     }
-  >>
-  ges,8( des' bes'4 ges f)
-  ges,8 des' <ges bes>4 aes,8 f' c'4
-  ges,8 des' <bes' des>4 aes,8 ees' <ges bes>4
-  des <aes' c> <bes des> ges
-  ges,8( des' ges4 f ees)
-  aes,8 f' aes4 <ees g des'>2
-  <bes f' aes>\arpeggio <bes f' aes>\arpeggio
-  bes,8( f' des' c ees des bes aes)
-  ges des' <ges bes> des aes ees' <aes c> ees
-  bes f' <aes bes> f des aes' <bes des> aes
-  ges, des' <ges bes> des aes ees' <aes c> ees
-  bes f' <bes des> f bes, f' <aes c>4
-  ges,8 des' <ges bes> des aes ees' <aes c> ees
-  bes f' <aes bes> f bes, f' <aes c> f
-  <des bes'>2 <bes f' aes>\arpeggio
-  <<
     {
-      r8 f'~ f2.
-    } \\
-    {
-      bes,1
+      \clef bass
+      ges,,8 des' <ges bes> des aes ees' <aes c> ees
     }
-  >>
-  <ges' des'>2 <aes ees>
-  <bes f'>1
-  <ges des' ees>2 <aes ees' f>
-  \clef treble
-  bes'8 f des' f, c'2
-  \clef bass
-  ges,,8 des' <ges bes> des aes ees' <aes c> ees
+  }
   bes f' <bes des> f bes, f' <aes c>4
   ges,8 des' <ges bes> des aes ees' <aes c> ees
   bes f' <aes bes> f bes, f' <aes c> f
