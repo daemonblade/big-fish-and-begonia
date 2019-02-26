@@ -100,7 +100,7 @@ bfab_piano_upper = \relative c'''
       <f' bes>8. <bes ees>16~ <bes ees>8 <f' bes>
     \ottava #0
   \time 6/4
-  <f,, bes ees>4\mp <f bes ees> <f bes d>8. <f bes ees>16 <f bes ees>8 <f bes f'> r4 f'8 aes
+  <f,, bes ees>4\mp <f bes ees> <f bes d>8. <f bes ees>16~ <f bes ees>8 <f bes f'> r4 f'8 aes
   \time 4/4
   bes4 c8 aes8\prall bes4 aes
   <<
@@ -135,7 +135,7 @@ bfab_piano_upper = \relative c'''
   \time 5/4
   \acciaccatura bes8 ees( f bes,4 \acciaccatura bes8 ees f bes, aes4.
   \time 4/4
-  bes2) bes16 aes c des f ees bes' aes
+  bes2) bes16-"ritard." aes c des f ees bes' aes
   c4 <f, bes f'>2.~
   <f bes f'>1
   \bar "|."
