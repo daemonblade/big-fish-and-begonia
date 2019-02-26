@@ -80,6 +80,10 @@ bfab_piano_upper = \relative c'''
   ees8 f bes,4 ees8 f bes, aes
   f''16 bes, ees f bes f ees bes f' c ees f bes f ees c
   f des ees f des' f, ees bes f' c ees f c' f, ees c
+  f bes, ees f bes f ees bes f' c ees f c' f, ees c
+  f bes, ees f des' f, ees bes c' c, ees f bes f ees c
+  f bes, c des f des c bes f' bes, c des ees des c bes
+  f' bes, ees f c' f, ees bes f' c ees f c' f, ees c
 }
 
 bfab_piano_lower = \relative c''
@@ -163,6 +167,10 @@ bfab_piano_lower = \relative c''
       bes,8 f' bes f aes, ees' c' ees,
     }
   >>
+  bes f' des' f, bes, f' c' f,
+  bes, f' bes f aes, ees' c' ees,
+  bes f' des' f, bes, f' bes f
+  ges, des' bes' des, aes ees' c' ees,
   bes f' des' f, bes, f' c' f,
 }
 
