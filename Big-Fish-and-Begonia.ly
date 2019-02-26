@@ -26,53 +26,53 @@ bfab_begin =
 bfab_piano_upper = \relative c'''
 {
   \clef treble
-  <c des aes'>1\arpeggio
+  <c des aes'>1\arpeggio\mp
   <aes c ees>\arpeggio
-  r8 \tuplet 3/2 {aes16 c des} f des c8 bes c des4
+  r8 \tuplet 3/2 {aes16 c des} f des c8 bes c des4~
   des1
-  f,8 ees f bes f ees f c'
-  f, ees  f des' <ees, c'>4 <c aes'>
-  \acciaccatura {bes8 c} f ees f bes f ees f c'
-  aes1
-  f8 ees f bes f ees f c'
-  f, ees f des' <ees, c'>4 aes
-  <ges, bes ees>8 f' bes,4 <aes c ees>8 f' bes, aes
-  bes1
-  bes,8 des des ees ees f f bes
-  aes4. f8 ees2
-  bes8 des des ees ees f f4
-  bes, aes2.
-  bes8 des des ees ees f f bes
-  aes4. f8 ees2
-  <ges bes ees> <aes c ees>
-  r2. bes,8 des
-  ees4. des8 bes4 bes8 des
-  ees4. des8 f4 f8 aes
+  f,8( ees f bes f ees f c'
+  f, ees  f des' <ees, c'>4 <c aes'>)
+  \acciaccatura {bes8 c} f( ees f bes f ees f c'
+  aes1)
+  f8( ees f bes f ees f c'
+  f,\< ees f des' <ees, c'>4 aes\!)
+  <ges, bes ees>8\mp( f' bes,4) <aes c ees>8( f' bes, aes
+  bes1)
+  bes,8( des des ees ees f f bes
+  aes4. f8 ees2)
+  bes8( des des ees ees f f4
+  bes, aes2.)
+  bes8( des des ees ees f f bes
+  aes4. f8 ees2)
+  <ges bes ees>\arpeggio <aes c ees>\arpeggio
+  r2. bes,8( des
+  ees4. des8 bes4) bes8( des
+  ees4. des8 f4) f8( aes
   bes4 bes8 aes f ees des4
-  ees8. f16 f2 bes,8 des
-  ees4. des16 bes bes4 bes8 des
-  ees4 des f2
-  ees8 f bes,4 ees8 f bes, aes
-  bes4 r2 f'8 aes
+  ees8. f16~ f2) bes,8( des
+  ees4. des16 bes~ bes4) bes8( des
+  ees4 des f2)
+  ees8( f bes,4 ees8 f bes, aes
+  bes4) r2 f'8( aes
   des4. c8 f,4 f8 ees
-  des4 des8 ees f4 f8 ees
+  des4 des8 ees f4) f8( ees
   des4 bes'8 des c bes aes ees
-  f2. f8 aes
+  f2.) f8( aes
   des4. c8 f,4 f8 ees
-  des4 des8 ees f2
+  des4 des8 ees f2)
   ees8 f bes,4 ees8 f bes, aes
   <<
     {
-      r4 des'8 f, c'2
+      r4 des'8( f, c'2)
     } \\
     {
       bes,2 r2
     }
   >>
-  f''8 ees f bes f ees f c'
-  f, ees f bes <ees, c'>4 <c aes'>
-  \acciaccatura {bes8 c} f ees f bes f ees f c'
-  aes1
+  f''8( ees f bes f ees f c'
+  f, ees f bes <ees, c'>4 <c aes'>)
+  \acciaccatura {bes8 c} f( ees f bes f ees f c'
+  aes1)
   des,,4 bes'8 des c bes aes bes
   f2. f8 aes
   des4. c8 f,4 f8 ees
@@ -133,18 +133,18 @@ bfab_piano_upper = \relative c'''
 bfab_piano_lower = \relative c''
 {
   \clef treble
-  <ges c des>1\arpeggio
-  <f c' ees>\arpeggio
+  <ges c des>1\arpeggio\sustainOn
+  <f c' ees>\arpeggio\sustainOff\sustainOn
   <<
     {
       \tuplet 3/2 {ges16 des' ees} r8 r2.
     } \\
     {
-      ges,1
+      ges,1~\sustainOff\sustainOn
       ges
     }
   >>
-  <ges, des'>2 <aes ees'>
+  <ges, des'>2\sustainOff\sustainOn <aes ees'>\sustainOff\sustainOn
   <bes f'>1
   <ges des' ees>2 <aes ees' f>
   bes'8 f des' f, c'2
