@@ -54,6 +54,10 @@ bfab_piano_upper = \relative c'''
   ees4 des f2
   ees8 f bes,4 ees8 f bes, aes
   bes4 r2 f'8 aes
+  des4. c8 f,4 f8 ees
+  des4 des8 ees f4 f8 ees
+  des4 bes'8 des c bes aes ees
+  f2. f8 aes
 }
 
 bfab_piano_lower = \relative c''
@@ -103,6 +107,10 @@ bfab_piano_lower = \relative c''
   aes,8 f' aes4 <ees g des'>2
   <bes f' aes> <bes f' aes>
   bes,8 f' des' c ees des bes aes
+  ges des' <ges bes> des aes ees' <aes c> ees
+  bes f' <aes bes> f des aes' <bes des> aes
+  ges, des' <ges bes> des aes ees' <aes c> ees
+  bes f' <bes des> f bes, f' <aes c>4
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
