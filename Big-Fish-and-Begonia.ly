@@ -92,6 +92,33 @@ bfab_piano_upper = \relative c'''
   <f,, bes ees>4 <f bes ees> <f bes d>8. <f bes ees>16 <f bes ees>8 <f bes f'> r4 f'8 aes
   \time 4/4
   bes4 c8 aes8 bes4 aes
+  <<
+    {
+      bes aes f f8 aes
+    } \\
+    {
+      f2 des
+    }
+  >>
+  <des bes'>4 <ees c'>8 aes <f bes>4 <ees c'>
+  <f des'>2. bes8 f'
+  <ges, ees'>4 bes8 f' <ges, ees'>2
+  <<
+    {
+      c4 aes f2
+    } \\
+    {
+      c2 des
+    }
+  >>
+  \time 5/4
+  <ees ees'>8 <f f'> <bes, bes'>4 <ees ees'>8 <f f'> <bes, bes'>4 <aes f' aes>
+  \time 4/4
+  <bes f' bes>1
+  f'16 bes, ees f bes f ees bes f' c ees f c' f, ees c
+  f des ees f des' f, ees bes f' c ees f c' f, ees c
+  f bes, ees f bes f ees bes f' c ees f c' f, ees c
+  f bes, ees f des' f, ees bes c' c, ees f bes f ees c
 }
 
 bfab_piano_lower = \relative c''
@@ -185,6 +212,19 @@ bfab_piano_lower = \relative c''
   bes, ees bes' ees, bes d f bes r2
   \time 4/4
   ges,8 des' <ges bes> des ges, des' <aes' c> ees
+  bes f' <bes des> f bes, f' <aes c> f
+  ges, des' <ges bes> des ges, des' <aes' c> ees
+  bes f' <bes des> aes bes, f' <aes c> f
+  bes, ges' <bes ees> ges bes, ges' <bes ees> ges
+  bes, f' <bes des> f bes, f' <aes c> f
+  \time 5/4
+  bes, f' <bes des> ges bes, f' <bes des> ees, <aes c>4
+  \time 4/4
+  bes,8 f' bes c des bes f des
+  ges, des' bes' des, aes ees' c' ees,
+  bes f' des' f, bes, f' c' f,
+  ges, des' bes' des, aes ees' c' ees,
+  bes f' des' f, bes, f' bes f
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
