@@ -18,7 +18,7 @@
 
 bfab_begin =
 {
-  \tempo "Largo" 4 = 73
+  \tempo 4 = 73
   \time 4/4
   \key des \major
 }
