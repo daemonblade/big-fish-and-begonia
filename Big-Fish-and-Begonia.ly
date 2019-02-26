@@ -145,20 +145,20 @@ bfab_piano_lower = \relative c''
     }
   >>
   <ges, des'>2\sustainOff\sustainOn <aes ees'>\sustainOff\sustainOn
-  <bes f'>1
-  <ges des' ees>2 <aes ees' f>
+  <bes f'>1\sustainOff\sustainOn
+  <ges des' ees>2\sustainOff <aes ees' f>
   bes'8 f des' f, c'2
   <ges, des' ees> <aes ees' f>
   bes8 f' des'4 c2
   <ges, des'> <aes ees'>
   \clef bass
   bes,8 f' des' f, c'2
-  ges,8 des' aes' bes f4 des
-  f,8 c' f aes c4 aes
+  ges,8( des' aes' bes f4 des)
+  f,8 c'( f aes c4 aes)
   ges,8 des' aes' des, bes'4 ges
   f,8 c' f c bes4 aes
-  ges8 des' aes' bes des4 ges,
-  f,8 c' f aes c4 aes
+  ges8( des' aes' bes des4 ges,)
+  f,8 c'( f aes c4 aes)
   <<
     {
       ees'8 f bes,4 ees8 f bes, aes
@@ -169,24 +169,24 @@ bfab_piano_lower = \relative c''
       bes,8 f' des' c bes4 ges
     }
   >>
-  ges,8 des' bes'4 ges f
+  ges,8( des' bes'4 ges f)
   ges,8 des' <ges bes>4 aes,8 f' c'4
   ges,8 des' <bes' des>4 aes,8 ees' <ges bes>4
   des <aes' c> <bes des> ges
-  ges,8 des' ges4 f ees
+  ges,8( des' ges4 f ees)
   aes,8 f' aes4 <ees g des'>2
-  <bes f' aes> <bes f' aes>
-  bes,8 f' des' c ees des bes aes
+  <bes f' aes>\arpeggio <bes f' aes>\arpeggio
+  bes,8( f' des' c ees des bes aes)
   ges des' <ges bes> des aes ees' <aes c> ees
   bes f' <aes bes> f des aes' <bes des> aes
   ges, des' <ges bes> des aes ees' <aes c> ees
   bes f' <bes des> f bes, f' <aes c>4
   ges,8 des' <ges bes> des aes ees' <aes c> ees
   bes f' <aes bes> f bes, f' <aes c> f
-  <des bes'>2 <bes f' aes>
+  <des bes'>2 <bes f' aes>\arpeggio
   <<
     {
-      r8 f' f2.
+      r8 f'~ f2.
     } \\
     {
       bes,1
