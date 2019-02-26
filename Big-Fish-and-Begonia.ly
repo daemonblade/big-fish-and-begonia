@@ -119,6 +119,15 @@ bfab_piano_upper = \relative c'''
   f des ees f des' f, ees bes f' c ees f c' f, ees c
   f bes, ees f bes f ees bes f' c ees f c' f, ees c
   f bes, ees f des' f, ees bes c' c, ees f bes f ees c
+  f bes, c des f des c bes f' aes, bes c ees des c bes
+  f' bes, c des f des c bes bes4 <ges des' ees>
+  \time 5/4
+  \acciaccatura bes8 ees f bes,4 \acciaccatura bes8 ees f bes, aes4.
+  \time 4/4
+  bes2 bes16 aes c des f ees bes' aes
+  c4 <f, bes f'>2.
+  <f bes f'>1
+  \bar "|."
 }
 
 bfab_piano_lower = \relative c''
@@ -225,6 +234,14 @@ bfab_piano_lower = \relative c''
   bes f' des' f, bes, f' c' f,
   ges, des' bes' des, aes ees' c' ees,
   bes f' des' f, bes, f' bes f
+  ges, des' bes' des, aes ees' c' ees,
+  bes f' des' f, bes, f' des' f,
+  <ees ges des'>2 <f aes ees'>2.
+  \time 4/4
+  \tuplet 3/2 {bes,8 f' bes} des16 c ees f f2
+  f4 <bes, f' bes>2.
+  <bes f' bes>1
+  \bar ".|"
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
