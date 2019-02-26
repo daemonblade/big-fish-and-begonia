@@ -3,8 +3,8 @@
 A transcription of the theme from Big Fish and Begonia (大鱼海棠)
 using Lilypond.
 
-The PDF output is available for download at the project's associated
-[Github Page](https://daemonblade.github.io/big-fish-and-begonia/).
+The current release version is
+[Big-Fish-and-Begonia-r1.pdf](releases/Big-Fish-and-Begonia-r1.pdf)
 
 ## Compiling from Source
 
