@@ -144,9 +144,9 @@ bfab_piano_lower = \relative c''
       ges
     }
   >>
-  <ges, des'>2\sustainOff\sustainOn <aes ees'>\sustainOff\sustainOn
-  <bes f'>1\sustainOff\sustainOn
-  <ges des' ees>2\sustainOff <aes ees' f>
+  <ges, des'>2\sustainOn <aes ees'>\sustainOn
+  <bes f'>1\sustainOn
+  <ges des' ees>2\sustainOn <aes ees' f>\sustainOn
   bes'8 f des' f, c'2
   <ges, des' ees> <aes ees' f>
   bes8 f' des'4 c2
