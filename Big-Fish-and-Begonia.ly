@@ -84,6 +84,14 @@ bfab_piano_upper = \relative c'''
   f bes, ees f des' f, ees bes c' c, ees f bes f ees c
   f bes, c des f des c bes f' bes, c des ees des c bes
   f' bes, ees f c' f, ees bes f' c ees f c' f, ees c
+  <f, bes>4 <bes ees>
+    \ottava #1
+      <f' bes>8. <bes ees>16 <bes ees>8 <f' bes>
+    \ottava #0
+  \time 6/4
+  <f,, bes ees>4 <f bes ees> <f bes d>8. <f bes ees>16 <f bes ees>8 <f bes f'> r4 f'8 aes
+  \time 4/4
+  bes4 c8 aes8 bes4 aes
 }
 
 bfab_piano_lower = \relative c''
@@ -172,6 +180,11 @@ bfab_piano_lower = \relative c''
   bes f' des' f, bes, f' bes f
   ges, des' bes' des, aes ees' c' ees,
   bes f' des' f, bes, f' c' f,
+  bes, f' des' f, bes, f' des' f,
+  \time 6/4
+  bes, ees bes' ees, bes d f bes r2
+  \time 4/4
+  ges,8 des' <ges bes> des ges, des' <aes' c> ees
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
