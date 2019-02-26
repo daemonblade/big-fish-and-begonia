@@ -30,7 +30,12 @@ bfab_piano_upper = \relative c'''
   <aes c ees>\arpeggio
   r8 \tuplet 3/2 {aes16 c des} f des c8 bes c des4
   des1
-  f,8ees f bes f ees f c'
+  f,8 ees f bes f ees f c'
+  f, ees  f des' <ees, c'>4 <c aes'>
+  \acciaccatura {bes8 c} f ees f bes f ees f c'
+  aes1
+  f8 ees f bes f ees f c'
+  f, ees f des' <ees, c'>4 aes
 }
 
 bfab_piano_lower = \relative c''
@@ -48,6 +53,11 @@ bfab_piano_lower = \relative c''
     }
   >>
   <ges, des'>2 <aes ees'>
+  <bes f'>1
+  <ges des' ees>2 <aes ees' f>
+  bes'8 f des' f, c'2
+  <ges, des' ees> <aes ees' f>
+  bes8 f' des'4 c2
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
