@@ -85,24 +85,24 @@ bfab_piano_upper = \relative c'''
       des,,4 bes'8 des c bes aes bes
     }
   }
-  f2. f8 aes
+  f2. f8( aes
   des4. c8 f,4 f8 ees
-  des4 des8 ees8 f2
+  des4 des8 ees8 f2)
   ees8 f bes,4 ees8 f bes, aes
-  f''16 bes, ees f bes f ees bes f' c ees f bes f ees c
-  f des ees f des' f, ees bes f' c ees f c' f, ees c
-  f bes, ees f bes f ees bes f' c ees f c' f, ees c
-  f bes, ees f des' f, ees bes c' c, ees f bes f ees c
-  f bes, c des f des c bes f' bes, c des ees des c bes
-  f' bes, ees f c' f, ees bes f' c ees f c' f, ees c
+  f''16( bes, ees f bes f ees bes) f'( c ees f bes f ees c)
+  f( des ees f des' f, ees bes) f'( c ees f c' f, ees c)
+  f( bes, ees f bes f ees bes) f'( c ees f c' f, ees c)
+  f( bes, ees f des' f, ees bes) c'( c, ees f bes f ees c)
+  f( bes, c des f des c bes) f'( bes, c des ees des c bes)
+  f'( bes, ees f c' f, ees bes) f'(\< c ees f c' f, ees c)\!
   <f, bes>4 <bes ees>
     \ottava #1
-      <f' bes>8. <bes ees>16 <bes ees>8 <f' bes>
+      <f' bes>8. <bes ees>16~ <bes ees>8 <f' bes>
     \ottava #0
   \time 6/4
-  <f,, bes ees>4 <f bes ees> <f bes d>8. <f bes ees>16 <f bes ees>8 <f bes f'> r4 f'8 aes
+  <f,, bes ees>4\mp <f bes ees> <f bes d>8. <f bes ees>16 <f bes ees>8 <f bes f'> r4 f'8 aes
   \time 4/4
-  bes4 c8 aes8 bes4 aes
+  bes4 c8 aes8\prall bes4 aes
   <<
     {
       bes aes f f8 aes
@@ -111,32 +111,32 @@ bfab_piano_upper = \relative c'''
       f2 des
     }
   >>
-  <des bes'>4 <ees c'>8 aes <f bes>4 <ees c'>
-  <f des'>2. bes8 f'
-  <ges, ees'>4 bes8 f' <ges, ees'>2
+  <des bes'>4 <ees c'>8 aes\prall <f bes>4 <ees c'>
+  <f des'>2. bes8( f'
+  <ges, ees'>4 bes8 f' <ges, ees'>2)
   <<
     {
-      c4 aes f2
+      c4( aes f2)
     } \\
     {
-      c2 des
+      c2\< des\!
     }
   >>
   \time 5/4
-  <ees ees'>8 <f f'> <bes, bes'>4 <ees ees'>8 <f f'> <bes, bes'>4 <aes f' aes>
+  <ees ees'>8(\mf <f f'> <bes, bes'>4 <ees ees'>8 <f f'> <bes, bes'>4 <aes f' aes>
   \time 4/4
-  <bes f' bes>1
-  f'16 bes, ees f bes f ees bes f' c ees f c' f, ees c
-  f des ees f des' f, ees bes f' c ees f c' f, ees c
-  f bes, ees f bes f ees bes f' c ees f c' f, ees c
-  f bes, ees f des' f, ees bes c' c, ees f bes f ees c
-  f bes, c des f des c bes f' aes, bes c ees des c bes
-  f' bes, c des f des c bes bes4 <ges des' ees>
+  <bes f' bes>1)\mp
+  f'16( bes, ees f bes f ees bes) f'( c ees f c' f, ees c)
+  f( des ees f des' f, ees bes) f'( c ees f c' f, ees c)
+  f( bes, ees f bes f ees bes) f'( c ees f c' f, ees c)
+  f( bes, ees f des' f, ees bes) c'( c, ees f bes f ees c)
+  f( bes, c des f des c bes) f'( aes, bes c ees des c bes)
+  f'( bes, c des f des c bes) (bes4 <ges des' ees>)\arpeggio
   \time 5/4
-  \acciaccatura bes8 ees f bes,4 \acciaccatura bes8 ees f bes, aes4.
+  \acciaccatura bes8 ees( f bes,4 \acciaccatura bes8 ees f bes, aes4.
   \time 4/4
-  bes2 bes16 aes c des f ees bes' aes
-  c4 <f, bes f'>2.
+  bes2) bes16 aes c des f ees bes' aes
+  c4 <f, bes f'>2.~
   <f bes f'>1
   \bar "|."
 }
@@ -171,7 +171,7 @@ bfab_piano_lower = \relative c''
     ges,8 des' aes' des, bes'4 ges
     f,8 c' f c bes4 aes
     ges8( des' aes' bes des4 ges,)
-    f,8 c'( f aes c4 aes)
+    f,8( c' f aes c4 aes)
     <<
       {
         ees'8 f bes,4 ees8 f bes, aes
@@ -224,7 +224,7 @@ bfab_piano_lower = \relative c''
   bes f' <bes des> f bes, f' <aes c>4
   ges,8 des' <ges bes> des aes ees' <aes c> ees
   bes f' <aes bes> f bes, f' <aes c> f
-  <des bes'>2 <bes f' aes>4 r
+  <des bes'>2 <bes f' aes>4\arpeggio r
   <<
     {
       bes'2
@@ -251,7 +251,7 @@ bfab_piano_lower = \relative c''
   \time 5/4
   bes, f' <bes des> ges bes, f' <bes des> ees, <aes c>4
   \time 4/4
-  bes,8 f' bes c des bes f des
+  bes,8( f' bes c des bes f des)
   ges, des' bes' des, aes ees' c' ees,
   bes f' des' f, bes, f' c' f,
   ges, des' bes' des, aes ees' c' ees,
@@ -260,10 +260,10 @@ bfab_piano_lower = \relative c''
   bes f' des' f, bes, f' des' f,
   <ees ges des'>2 <f aes ees'>2.
   \time 4/4
-  \tuplet 3/2 {bes,8 f' bes} des16 c ees f f2
-  f4 <bes, f' bes>2.
+  \tuplet 3/2 {bes,8 f' bes} des16 c ees f~ f2~
+  f4 <bes, f' bes>2.~
   <bes f' bes>1
-  \bar ".|"
+  \bar "|."
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
