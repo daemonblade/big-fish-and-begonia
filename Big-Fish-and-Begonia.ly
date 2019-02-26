@@ -26,15 +26,28 @@ bfab_begin =
 bfab_piano_upper = \relative c'''
 {
   \clef treble
-  <c des aes'>1
-  <aes c ees>
+  <c des aes'>1\arpeggio
+  <aes c ees>\arpeggio
+  r8 \tuplet 3/2 {aes16 c des} f des c8 bes c des4
+  des1
+  f,8ees f bes f ees f c'
 }
 
 bfab_piano_lower = \relative c''
 {
   \clef treble
-  <ges c des>1
-  <f c' ees>
+  <ges c des>1\arpeggio
+  <f c' ees>\arpeggio
+  <<
+    {
+      \tuplet 3/4 {ges16 des' ees} r8 r2.
+    } \\
+    {
+      ges,1
+      ges
+    }
+  >>
+  <ges, des'>2 <aes ees'>
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,6 +61,7 @@ bfab_piano_lower = \relative c''
   {
     \new PianoStaff
     <<
+      \set PianoStaff.connectArpeggios = ##t
       \new Staff = "upper" << \bfab_begin \bfab_piano_upper >>
       \new Staff = "lower" << \bfab_begin \bfab_piano_lower >>
     >>
