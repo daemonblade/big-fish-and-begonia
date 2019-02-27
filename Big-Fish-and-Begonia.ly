@@ -28,15 +28,15 @@ bfab_piano_upper = \relative c'''
   \clef treble
   <c des aes'>1\arpeggio\mp
   <aes c ees>\arpeggio
-  r8 \tuplet 3/2 {aes16 c des} f des c8 bes c des4~
-  des1
+  r8( \tuplet 3/2 {aes16 c des} f des c8 bes c des4~
+  des1)
   f,8( ees f bes f ees f c'
   f, ees  f des' <ees, c'>4 <c aes'>)
   \acciaccatura {bes8 c} f( ees f bes f ees f c'
   aes1)
   f8( ees f bes f ees f c'
   f,\< ees f des' <ees, c'>4 aes\!)
-  <ges, bes ees>8\mp( f' bes,4) <aes c ees>8( f' bes, aes
+  <ges, bes ees>8\arpeggio\mp( f' bes,4) <aes c ees>8\arpeggio( f' bes, aes
   bes1)
   \repeat volta 2
   {
