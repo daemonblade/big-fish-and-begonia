@@ -67,13 +67,16 @@ bfab_piano_upper = \relative c'''
       f2.) f8( aes
       des4. c8 f,4 f8 ees
       des4 des8 ees f2)
-      ees8 f bes,4 ees8 f bes, aes
       <<
         {
+          s1
           r4 des'8( f, c'2)
         } \\
         {
-          bes,2 r2
+          \override Stem.direction = #UP
+          ees,8( f bes,4 ees8 f bes, aes
+          \revert Stem.direction
+          bes2) r2
         }
       >>
       f''8( ees f bes f ees f c'
